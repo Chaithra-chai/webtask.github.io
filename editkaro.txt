@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta https-equiv="X-UA-Comatible" content="=ie=edge">
+    <title>Sartup Company</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+   <header>
+    <nav>
+        <img src="logo.png" alt="company logo">
+        <ul>
+            <li> <a href="#top">Home</a></li>
+            <li> <a href="#about">About</a></li>
+            <li> <a href="#services">Services</a></li>
+            <li> <a href="Contact">Contact</a></li>
+       </ul>
+    </nav>
+    <h1>Welcome to Editkaro.in  </h1>
+    <p> Innovative Solution for a better future </p>
+    <a href="#contact" class="cta">Get in touch</a>
+   </header> 
+   <main>
+    <section id="about"></section>
+   </main>
+
+   <section id="about">
+    <h2>About Us</h2>
+    <img src="image3.png"  width="100%" alt=" ">
+    <p>Editkaro.in is a top leading and also a well reputed leading social media marketing and video editing agency,<br>
+    we Exploring our portfolio and specializing a wide range of video</p>
+    <!--<a href="#About" class="cta">About</a>-->
+  
+</section>
+<section id="services">
+    <h2> Our Services</h2>
+    <div class="service">
+        <img src="pic-1.png" alt="Service 1">
+        <h3> Social media marketing</h3>
+        <p>we will expose your  your works boost your brand's in online</p>
+    </div>
+    <div class="service">
+        <img src="pic-2.png" alt="Service 2">
+        <h3> Video Editing</h3>
+        <p>U will get high quality of video editing</p>  
+    </div>
+    <div class="service">
+        <img src="pic-3.png" alt="Service 3">
+        <h3> Color Grading</h3>
+        <p>Enhance the visual view of your videos with stunning effects.</p>  
+    </div>
+    </section>
+    <!--<img src="image-2.png"  width="100%" alt=" ">-->
+
+    <div class="video-gallery">
+        <div class="video-item">
+            <h4>Video Editing</h4>
+            <iframe src="https://www.youtube.com/embed/3JZ_D3ELwOQ " frameborder="0" allowfullscreen></iframe>
+        </div>
+        <!--<div class="video-item">
+            <iframe src="https://www.youtube.com/embed/3JZ_D3ELwOQ" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div class="video-item">
+            <iframe src="https://www.youtube.com/embed/L_jWHffIx5E" frameborder="0" allowfullscreen></iframe>
+        </div>-->
+    </div>
+
+<video src="https://youtu.be/t3xAgfidbzg?si=nYHB9WK810_XJ1-e.mp4"></video>
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="contact">
+    <h2> Get in Touch</h2>
+    <p>Get in touch with us today! Our team is here to answer any question you may have and help your with your social media needs.</p>
+    <form action="submit-form.php" method="post">
+        <input type="text" name="name" placeholder="Your Name">
+        <input type="email"  name="email" placeholder="Your Email">
+        <textarea name="message" placeholder="Your Message"></textarea>
+        <button type="submit">Submit</button>
+    </form>
+</section>
+</main>
+<footer>
+    <p> &copy;Editkaro.in All rights reserved 2024</p>
+</footer>
+</body
